@@ -69,7 +69,7 @@ function Nav() {
           <img
             src={logo}
             alt="Thinking Man Advisory"
-            className="h-20 md:h-28 w-auto drop-shadow-md transition-transform hover:scale-[1.03]"
+            className="h-28 md:h-36 w-auto drop-shadow-md transition-transform hover:scale-[1.03]"
           />
         </a>
         <nav className="hidden md:flex items-center gap-10 text-sm text-foreground/80">
