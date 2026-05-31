@@ -66,7 +66,11 @@ function Nav() {
     <header className="absolute top-0 left-0 right-0 z-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 flex items-center justify-between py-6">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logo} alt="Thinking Man Advisory" className="h-12 md:h-14 w-auto" />
+          <img
+            src={logo}
+            alt="Thinking Man Advisory"
+            className="h-20 md:h-28 w-auto drop-shadow-md transition-transform hover:scale-[1.03]"
+          />
         </a>
         <nav className="hidden md:flex items-center gap-10 text-sm text-foreground/80">
           <a href="#about" className="hover:text-primary transition-colors">About</a>
@@ -293,10 +297,13 @@ function Contact() {
           significant interface with government.
         </p>
         <div className="mt-12 inline-flex flex-col items-center gap-2">
-          <a href="mailto:info@tmadvisory.com" className="font-serif text-3xl md:text-4xl text-primary border-b-2 border-primary/40 hover:border-primary pb-1 transition">
-            info@tmadvisory.com
+          <a href="mailto:info@tmadvisory.in" className="font-serif text-3xl md:text-4xl text-primary border-b-2 border-primary/40 hover:border-primary pb-1 transition">
+            info@tmadvisory.in
           </a>
-          <span className="text-sm text-muted-foreground mt-3">Malviya Nagar, New Delhi</span>
+          <span className="text-sm text-muted-foreground mt-3">New Delhi, India</span>
+          <p className="mt-8 font-serif italic text-base md:text-lg text-primary/80">
+            We provide only boutique advisory services — mail to book an appointment.
+          </p>
         </div>
       </div>
     </section>
