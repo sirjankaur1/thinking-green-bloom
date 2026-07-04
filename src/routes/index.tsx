@@ -309,12 +309,12 @@ function Contact() {
           We work with private companies and corporates that have, or are looking to grow, a
           significant interface with government.
         </p>
-        <div className="mt-8 inline-flex flex-col items-center gap-2">
+        <div className="mt-6 inline-flex flex-col items-center gap-3">
           <a href="mailto:info@tmadvisory.in" className="font-serif text-3xl md:text-4xl text-primary border-b-2 border-primary/40 hover:border-primary pb-1 transition">
             info@tmadvisory.in
           </a>
-          <span className="text-sm text-muted-foreground mt-3">New Delhi, India</span>
-          <p className="mt-8 font-serif italic text-base md:text-lg text-primary/80">
+          <span className="text-sm text-muted-foreground">New Delhi, India</span>
+          <p className="font-serif italic text-base md:text-lg text-primary/80">
             We provide only boutique advisory services — mail to book an appointment.
           </p>
         </div>
