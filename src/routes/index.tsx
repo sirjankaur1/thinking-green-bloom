@@ -105,12 +105,12 @@ function Hero() {
           <h1 className="font-serif text-5xl md:text-7xl leading-[1.05] text-primary">
             Engage government as a <em className="italic font-normal">navigable, winnable</em> terrain.
           </h1>
-          <p className="mt-8 max-w-xl text-lg text-muted-foreground leading-relaxed">
+          <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-snug">
             Thinking Man Advisory is a boutique consulting practice built for India's new
             era of public-private engagement — helping companies win mandates, structure
             partnerships and shape outcomes in the public sphere.
           </p>
-          <div className="mt-10 flex items-center gap-6">
+          <div className="mt-7 flex items-center gap-6">
             <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition">
               Start a conversation
             </a>
@@ -140,7 +140,7 @@ function About() {
             Between policy expertise and commercial acumen.
           </h2>
         </div>
-        <div className="md:col-span-7 md:col-start-6 space-y-6 text-lg text-foreground/80 leading-relaxed">
+        <div className="md:col-span-7 md:col-start-6 space-y-4 text-lg text-foreground/80 leading-snug">
           <p>
             India's regulatory and policy landscape is complex, fast-moving and consequential. A
             misread tender, a missed approval window, or a poorly structured engagement can cost
@@ -220,7 +220,7 @@ function Differentiators() {
             Not a vendor. <em className="italic font-normal">A long-term advisor.</em>
           </h2>
         </div>
-        <div className="md:col-span-8 grid sm:grid-cols-2 gap-x-10 gap-y-12">
+        <div className="md:col-span-8 grid sm:grid-cols-2 gap-x-8 gap-y-8">
           {differentiators.map((d) => (
             <div key={d.k}>
               <h3 className="font-serif text-2xl mb-3">{d.k}</h3>
@@ -253,9 +253,9 @@ function Services() {
                 <span className="text-xs text-primary/60 font-medium">0{i + 1}</span>
                 <h3 className="font-serif text-2xl md:text-3xl text-primary">{s.title}</h3>
               </div>
-              <ul className={`space-y-3 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-10" : ""}`}>
+              <ul className={`space-y-1.5 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-8" : ""}`}>
                 {s.points.map((p) => (
-                  <li key={p} className="flex gap-3 text-foreground/80 leading-relaxed">
+                  <li key={p} className="flex gap-3 text-foreground/80 leading-snug">
                     <span className="text-primary mt-2 shrink-0">·</span>
                     <span>{p}</span>
                   </li>
@@ -279,7 +279,7 @@ function Team() {
             Led by individuals who have worked inside and alongside government.
           </h2>
         </div>
-        <div className="md:col-span-7 space-y-4 text-lg text-foreground/80 leading-relaxed">
+        <div className="md:col-span-7 space-y-3 text-lg text-foreground/80 leading-snug">
           {[
             "Inside and alongside governments — at central and state level",
             "In public policy and governance — understanding what the government needs",
@@ -305,11 +305,11 @@ function Contact() {
         <h2 className="mt-6 font-serif text-4xl md:text-6xl text-primary leading-tight">
           Position your company as a leader in India's <em className="italic font-normal">growth story.</em>
         </h2>
-        <p className="mt-8 text-lg text-muted-foreground max-w-2xl mx-auto">
+        <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
           We work with private companies and corporates that have, or are looking to grow, a
           significant interface with government.
         </p>
-        <div className="mt-12 inline-flex flex-col items-center gap-2">
+        <div className="mt-8 inline-flex flex-col items-center gap-2">
           <a href="mailto:info@tmadvisory.in" className="font-serif text-3xl md:text-4xl text-primary border-b-2 border-primary/40 hover:border-primary pb-1 transition">
             info@tmadvisory.in
           </a>
