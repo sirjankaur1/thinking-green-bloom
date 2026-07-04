@@ -98,7 +98,7 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative pt-36 md:pt-44 pb-24 md:pb-32 overflow-hidden">
+    <section id="top" className="relative pt-32 md:pt-40 pb-16 md:pb-24 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12 items-center">
         <div className="md:col-span-7">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70 mb-6">Government Consulting · India</p>
@@ -132,7 +132,7 @@ function Hero() {
 
 function About() {
   return (
-    <section id="about" className="border-t hairline py-24 md:py-32">
+    <section id="about" className="border-t hairline py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12">
         <div className="md:col-span-4">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">About</p>
@@ -163,7 +163,7 @@ function About() {
 
 function VisionMission() {
   return (
-    <section className="bg-accent/40 border-y hairline py-24 md:py-28">
+    <section className="bg-accent/40 border-y hairline py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-2 gap-16">
         <div>
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Vision</p>
@@ -189,7 +189,7 @@ function VisionMission() {
 
 function Spheres() {
   return (
-    <section id="spheres" className="py-24 md:py-32">
+    <section id="spheres" className="py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="flex items-end justify-between mb-14">
           <div>
@@ -212,7 +212,7 @@ function Spheres() {
 
 function Differentiators() {
   return (
-    <section className="bg-primary text-primary-foreground py-24 md:py-32">
+    <section className="bg-primary text-primary-foreground py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12">
         <div className="md:col-span-4">
           <p className="text-xs tracking-[0.25em] uppercase text-primary-foreground/60">What sets us apart</p>
@@ -235,7 +235,7 @@ function Differentiators() {
 
 function Services() {
   return (
-    <section id="services" className="py-24 md:py-32">
+    <section id="services" className="py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="mb-16 max-w-3xl">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Our Services</p>
@@ -271,7 +271,7 @@ function Services() {
 
 function Team() {
   return (
-    <section className="border-t hairline py-24 md:py-28">
+    <section className="border-t hairline py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-10 items-start">
         <div className="md:col-span-5">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">The Team</p>
@@ -299,7 +299,7 @@ function Team() {
 
 function Contact() {
   return (
-    <section id="contact" className="bg-accent/40 py-24 md:py-32 border-t hairline">
+    <section id="contact" className="bg-accent/40 py-16 md:py-20 border-t hairline">
       <div className="mx-auto max-w-5xl px-6 lg:px-10 text-center">
         <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Partner with us</p>
         <h2 className="mt-6 font-serif text-4xl md:text-6xl text-primary leading-tight">
