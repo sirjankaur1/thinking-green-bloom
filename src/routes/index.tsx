@@ -98,19 +98,19 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative pt-36 md:pt-44 pb-24 md:pb-32 overflow-hidden">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12 items-center">
+    <section id="top" className="relative pt-32 md:pt-40 pb-16 md:pb-24 overflow-hidden">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8 items-center">
         <div className="md:col-span-7">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70 mb-6">Government Consulting · India</p>
           <h1 className="font-serif text-5xl md:text-7xl leading-[1.05] text-primary">
             Engage government as a <em className="italic font-normal">navigable, winnable</em> terrain.
           </h1>
-          <p className="mt-8 max-w-xl text-lg text-muted-foreground leading-relaxed">
+          <p className="mt-6 max-w-xl text-lg text-muted-foreground leading-snug">
             Thinking Man Advisory is a boutique consulting practice built for India's new
             era of public-private engagement — helping companies win mandates, structure
             partnerships and shape outcomes in the public sphere.
           </p>
-          <div className="mt-10 flex items-center gap-6">
+          <div className="mt-7 flex items-center gap-6">
             <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition">
               Start a conversation
             </a>
@@ -132,15 +132,15 @@ function Hero() {
 
 function About() {
   return (
-    <section id="about" className="border-t hairline py-24 md:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12">
+    <section id="about" className="border-t hairline py-16 md:py-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8">
         <div className="md:col-span-4">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">About</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
             Between policy expertise and commercial acumen.
           </h2>
         </div>
-        <div className="md:col-span-7 md:col-start-6 space-y-6 text-lg text-foreground/80 leading-relaxed">
+        <div className="md:col-span-7 md:col-start-6 space-y-4 text-lg text-foreground/80 leading-snug">
           <p>
             India's regulatory and policy landscape is complex, fast-moving and consequential. A
             misread tender, a missed approval window, or a poorly structured engagement can cost
@@ -163,8 +163,8 @@ function About() {
 
 function VisionMission() {
   return (
-    <section className="bg-accent/40 border-y hairline py-24 md:py-28">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-2 gap-16">
+    <section className="bg-accent/40 border-y hairline py-16 md:py-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-2 gap-10">
         <div>
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Vision</p>
           <h3 className="mt-4 font-serif text-3xl md:text-4xl text-primary leading-snug">
@@ -178,7 +178,7 @@ function VisionMission() {
             Leveraging markets for better state-growth through partnerships that are financially
             rewarding and economically transformative.
           </h3>
-          <p className="mt-6 font-serif italic text-primary/70 text-lg">
+          <p className="mt-4 font-serif italic text-primary/70 text-base">
             Institutional Expertise · Policy Fluency · Boutique Advisory
           </p>
         </div>
@@ -189,9 +189,9 @@ function VisionMission() {
 
 function Spheres() {
   return (
-    <section id="spheres" className="py-24 md:py-32">
+    <section id="spheres" className="py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <div className="flex items-end justify-between mb-14">
+        <div className="flex items-end justify-between mb-10">
           <div>
             <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Operating Spheres</p>
             <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary">Where we work.</h2>
@@ -212,15 +212,15 @@ function Spheres() {
 
 function Differentiators() {
   return (
-    <section className="bg-primary text-primary-foreground py-24 md:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12">
+    <section className="bg-primary text-primary-foreground py-16 md:py-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8">
         <div className="md:col-span-4">
           <p className="text-xs tracking-[0.25em] uppercase text-primary-foreground/60">What sets us apart</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl leading-tight">
             Not a vendor. <em className="italic font-normal">A long-term advisor.</em>
           </h2>
         </div>
-        <div className="md:col-span-8 grid sm:grid-cols-2 gap-x-10 gap-y-12">
+        <div className="md:col-span-8 grid sm:grid-cols-2 gap-x-8 gap-y-8">
           {differentiators.map((d) => (
             <div key={d.k}>
               <h3 className="font-serif text-2xl mb-3">{d.k}</h3>
@@ -235,9 +235,9 @@ function Differentiators() {
 
 function Services() {
   return (
-    <section id="services" className="py-24 md:py-32">
+    <section id="services" className="py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <div className="mb-16 max-w-3xl">
+        <div className="mb-10 max-w-3xl">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Our Services</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
             Five practices, built around how government actually works.
@@ -247,15 +247,15 @@ function Services() {
           {services.map((s, i) => (
             <div
               key={s.title}
-              className={`bg-background p-10 md:p-12 ${i === 4 ? "md:col-span-2" : ""}`}
+              className={`bg-background p-7 md:p-9 ${i === 4 ? "md:col-span-2" : ""}`}
             >
               <div className="flex items-baseline gap-4 mb-6">
                 <span className="text-xs text-primary/60 font-medium">0{i + 1}</span>
                 <h3 className="font-serif text-2xl md:text-3xl text-primary">{s.title}</h3>
               </div>
-              <ul className={`space-y-3 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-10" : ""}`}>
+              <ul className={`space-y-1.5 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-8" : ""}`}>
                 {s.points.map((p) => (
-                  <li key={p} className="flex gap-3 text-foreground/80 leading-relaxed">
+                  <li key={p} className="flex gap-3 text-foreground/80 leading-snug">
                     <span className="text-primary mt-2 shrink-0">·</span>
                     <span>{p}</span>
                   </li>
@@ -271,15 +271,15 @@ function Services() {
 
 function Team() {
   return (
-    <section className="border-t hairline py-24 md:py-28">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-10 items-start">
+    <section className="border-t hairline py-16 md:py-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8 items-start">
         <div className="md:col-span-5">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">The Team</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
             Led by individuals who have worked inside and alongside government.
           </h2>
         </div>
-        <div className="md:col-span-7 space-y-4 text-lg text-foreground/80 leading-relaxed">
+        <div className="md:col-span-7 space-y-3 text-lg text-foreground/80 leading-snug">
           {[
             "Inside and alongside governments — at central and state level",
             "In public policy and governance — understanding what the government needs",
@@ -299,17 +299,17 @@ function Team() {
 
 function Contact() {
   return (
-    <section id="contact" className="bg-accent/40 py-24 md:py-32 border-t hairline">
+    <section id="contact" className="bg-accent/40 py-16 md:py-20 border-t hairline">
       <div className="mx-auto max-w-5xl px-6 lg:px-10 text-center">
         <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Partner with us</p>
         <h2 className="mt-6 font-serif text-4xl md:text-6xl text-primary leading-tight">
           Position your company as a leader in India's <em className="italic font-normal">growth story.</em>
         </h2>
-        <p className="mt-8 text-lg text-muted-foreground max-w-2xl mx-auto">
+        <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">
           We work with private companies and corporates that have, or are looking to grow, a
           significant interface with government.
         </p>
-        <div className="mt-12 inline-flex flex-col items-center gap-2">
+        <div className="mt-8 inline-flex flex-col items-center gap-2">
           <a href="mailto:info@tmadvisory.in" className="font-serif text-3xl md:text-4xl text-primary border-b-2 border-primary/40 hover:border-primary pb-1 transition">
             info@tmadvisory.in
           </a>
