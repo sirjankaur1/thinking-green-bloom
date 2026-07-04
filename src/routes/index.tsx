@@ -99,7 +99,7 @@ function Nav() {
 function Hero() {
   return (
     <section id="top" className="relative pt-32 md:pt-40 pb-16 md:pb-24 overflow-hidden">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12 items-center">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8 items-center">
         <div className="md:col-span-7">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70 mb-6">Government Consulting · India</p>
           <h1 className="font-serif text-5xl md:text-7xl leading-[1.05] text-primary">
@@ -133,7 +133,7 @@ function Hero() {
 function About() {
   return (
     <section id="about" className="border-t hairline py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8">
         <div className="md:col-span-4">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">About</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
@@ -164,7 +164,7 @@ function About() {
 function VisionMission() {
   return (
     <section className="bg-accent/40 border-y hairline py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-2 gap-16">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-2 gap-10">
         <div>
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Vision</p>
           <h3 className="mt-4 font-serif text-3xl md:text-4xl text-primary leading-snug">
@@ -191,7 +191,7 @@ function Spheres() {
   return (
     <section id="spheres" className="py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <div className="flex items-end justify-between mb-14">
+        <div className="flex items-end justify-between mb-10">
           <div>
             <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Operating Spheres</p>
             <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary">Where we work.</h2>
@@ -213,7 +213,7 @@ function Spheres() {
 function Differentiators() {
   return (
     <section className="bg-primary text-primary-foreground py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-12">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8">
         <div className="md:col-span-4">
           <p className="text-xs tracking-[0.25em] uppercase text-primary-foreground/60">What sets us apart</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl leading-tight">
@@ -237,7 +237,7 @@ function Services() {
   return (
     <section id="services" className="py-16 md:py-20">
       <div className="mx-auto max-w-7xl px-6 lg:px-10">
-        <div className="mb-16 max-w-3xl">
+        <div className="mb-10 max-w-3xl">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Our Services</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
             Five practices, built around how government actually works.
@@ -247,7 +247,7 @@ function Services() {
           {services.map((s, i) => (
             <div
               key={s.title}
-              className={`bg-background p-10 md:p-12 ${i === 4 ? "md:col-span-2" : ""}`}
+              className={`bg-background p-7 md:p-9 ${i === 4 ? "md:col-span-2" : ""}`}
             >
               <div className="flex items-baseline gap-4 mb-6">
                 <span className="text-xs text-primary/60 font-medium">0{i + 1}</span>
@@ -272,7 +272,7 @@ function Services() {
 function Team() {
   return (
     <section className="border-t hairline py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-10 items-start">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8 items-start">
         <div className="md:col-span-5">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">The Team</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
