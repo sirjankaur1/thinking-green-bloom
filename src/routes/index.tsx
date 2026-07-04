@@ -52,6 +52,16 @@ const services = [
       "White papers, policy briefs and thought-leadership content",
     ],
   },
+  {
+    title: "IP & Competition Law Consultancy",
+    points: [
+      "Patent and trademark strategy for public-sector technology partnerships",
+      "Competition law compliance in government procurement and PPP structures",
+      "Technology transfer and licensing frameworks for public infrastructure",
+      "IP portfolio management aligned with national innovation policies",
+      "Regulatory advocacy on IP and competition matters before government bodies",
+    ],
+  },
 ];
 
 const differentiators = [
