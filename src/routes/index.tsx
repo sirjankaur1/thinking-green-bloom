@@ -178,7 +178,7 @@ function VisionMission() {
             Leveraging markets for better state-growth through partnerships that are financially
             rewarding and economically transformative.
           </h3>
-          <p className="mt-6 font-serif italic text-primary/70 text-lg">
+          <p className="mt-4 font-serif italic text-primary/70 text-base">
             Institutional Expertise · Policy Fluency · Boutique Advisory
           </p>
         </div>
