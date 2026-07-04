@@ -98,7 +98,7 @@ function Nav() {
 
 function Hero() {
   return (
-    <section id="top" className="relative pt-32 md:pt-40 pb-16 md:pb-24 overflow-hidden">
+    <section id="top" className="relative pt-44 md:pt-56 pb-16 md:pb-24 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8 items-center">
         <div className="md:col-span-7">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70 mb-6">Government Consulting · India</p>
@@ -151,7 +151,7 @@ function About() {
             acumen — enabling partners to navigate government as a strategic asset rather than a
             compliance burden.
           </p>
-          <p className="font-serif italic text-2xl text-primary pt-4">
+          <p className="font-serif italic text-xl text-primary pt-3">
             "A 2–3× acceleration in scaling government-facing revenue streams compared to going
             alone or hiring fragmented advisors."
           </p>
@@ -253,7 +253,7 @@ function Services() {
                 <span className="text-xs text-primary/60 font-medium">0{i + 1}</span>
                 <h3 className="font-serif text-2xl md:text-3xl text-primary">{s.title}</h3>
               </div>
-              <ul className={`space-y-3 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-8" : ""}`}>
+              <ul className={`space-y-3 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-3 md:space-y-0" : ""}`}>
                 {s.points.map((p) => (
                   <li key={p} className="flex gap-3 text-foreground/80 leading-relaxed">
                     <span className="text-primary mt-1.5 shrink-0">·</span>
@@ -275,7 +275,7 @@ function Team() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8 items-start">
         <div className="md:col-span-5">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">The Team</p>
-          <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
+          <h2 className="mt-4 font-serif text-3xl md:text-4xl text-primary leading-tight">
             Led by individuals who have worked inside and alongside government.
           </h2>
         </div>
