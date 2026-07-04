@@ -253,10 +253,10 @@ function Services() {
                 <span className="text-xs text-primary/60 font-medium">0{i + 1}</span>
                 <h3 className="font-serif text-2xl md:text-3xl text-primary">{s.title}</h3>
               </div>
-              <ul className={`space-y-1.5 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-8" : ""}`}>
+              <ul className={`space-y-3 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-8" : ""}`}>
                 {s.points.map((p) => (
-                  <li key={p} className="flex gap-3 text-foreground/80 leading-snug">
-                    <span className="text-primary mt-2 shrink-0">·</span>
+                  <li key={p} className="flex gap-3 text-foreground/80 leading-relaxed">
+                    <span className="text-primary mt-1.5 shrink-0">·</span>
                     <span>{p}</span>
                   </li>
                 ))}
