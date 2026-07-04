@@ -52,6 +52,16 @@ const services = [
       "White papers, policy briefs and thought-leadership content",
     ],
   },
+  {
+    title: "IP & Competition Law Consultancy",
+    points: [
+      "Patent and trademark strategy for public-sector technology partnerships",
+      "Competition law compliance in government procurement and PPP structures",
+      "Technology transfer and licensing frameworks for public infrastructure",
+      "IP portfolio management aligned with national innovation policies",
+      "Regulatory advocacy on IP and competition matters before government bodies",
+    ],
+  },
 ];
 
 const differentiators = [
@@ -230,17 +240,20 @@ function Services() {
         <div className="mb-16 max-w-3xl">
           <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Our Services</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
-            Four practices, built around how government actually works.
+            Five practices, built around how government actually works.
           </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-px bg-border border hairline">
           {services.map((s, i) => (
-            <div key={s.title} className="bg-background p-10 md:p-12">
+            <div
+              key={s.title}
+              className={`bg-background p-10 md:p-12 ${i === 4 ? "md:col-span-2" : ""}`}
+            >
               <div className="flex items-baseline gap-4 mb-6">
                 <span className="text-xs text-primary/60 font-medium">0{i + 1}</span>
                 <h3 className="font-serif text-2xl md:text-3xl text-primary">{s.title}</h3>
               </div>
-              <ul className="space-y-3">
+              <ul className={`space-y-3 ${i === 4 ? "md:grid md:grid-cols-2 md:gap-x-10" : ""}`}>
                 {s.points.map((p) => (
                   <li key={p} className="flex gap-3 text-foreground/80 leading-relaxed">
                     <span className="text-primary mt-2 shrink-0">·</span>
