@@ -10,7 +10,7 @@ const spheres = [
   "Tech & Digital Public Infrastructure",
   "Green Finance & Carbon Markets",
   "PPP & Infra Asset Structuring",
-  "Investment Decisions for Impact",
+  "Healthcare and Health Supplies",
 ];
 
 const services = [
