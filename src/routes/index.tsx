@@ -82,13 +82,13 @@ function Nav() {
             className="h-28 md:h-36 w-auto drop-shadow-md transition-transform hover:scale-[1.03]"
           />
         </a>
-        <nav className="hidden md:flex items-center gap-10 text-sm text-foreground/80">
+        <nav className="hidden md:flex items-center gap-12 text-base text-foreground/80">
           <a href="#about" className="hover:text-primary transition-colors">About</a>
           <a href="#spheres" className="hover:text-primary transition-colors">Operating Spheres</a>
           <a href="#services" className="hover:text-primary transition-colors">Services</a>
           <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
         </nav>
-        <a href="#contact" className="hidden md:inline-flex items-center text-sm font-medium text-primary border-b border-primary/40 pb-0.5 hover:border-primary">
+        <a href="#contact" className="hidden md:inline-flex items-center text-base font-medium text-primary border-b border-primary/40 pb-0.5 hover:border-primary">
           Partner with us →
         </a>
       </div>
