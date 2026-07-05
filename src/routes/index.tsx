@@ -111,10 +111,10 @@ function Hero() {
             partnerships and shape outcomes in the public sphere.
           </p>
           <div className="mt-7 flex items-center gap-6">
-            <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition">
+            <a href="#contact" className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground hover:bg-primary/90 transition">
               Start a conversation
             </a>
-            <a href="#services" className="text-sm text-primary hover:text-primary/80 border-b border-primary/30 pb-0.5">
+            <a href="#services" className="text-base text-primary hover:text-primary/80 border-b border-primary/30 pb-0.5">
               Explore our services
             </a>
           </div>
