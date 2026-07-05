@@ -74,7 +74,7 @@ const differentiators = [
 function Nav() {
   return (
     <header className="absolute top-0 left-0 right-0 z-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 flex items-center justify-between py-6">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 flex items-center justify-between py-6">
         <a href="#top" className="flex items-center gap-3">
           <img
             src={logo}
@@ -99,9 +99,9 @@ function Nav() {
 function Hero() {
   return (
     <section id="top" className="relative pt-44 md:pt-56 pb-16 md:pb-24 overflow-hidden">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8 items-center">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-12 gap-8 items-center">
         <div className="md:col-span-7">
-          <p className="text-xs tracking-[0.25em] uppercase text-primary/70 mb-6">Government Consulting · India</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-primary/70 mb-6">Government Consulting · India</p>
           <h1 className="font-serif text-5xl md:text-7xl leading-[1.05] text-primary">
             Engage government as a <em className="italic font-normal">navigable, winnable</em> terrain.
           </h1>
@@ -133,9 +133,9 @@ function Hero() {
 function About() {
   return (
     <section id="about" className="border-t hairline py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-12 gap-8">
         <div className="md:col-span-4">
-          <p className="text-xs tracking-[0.25em] uppercase text-primary/70">About</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-primary/70">About</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
             Between policy expertise and commercial acumen.
           </h2>
@@ -164,16 +164,16 @@ function About() {
 function VisionMission() {
   return (
     <section className="bg-accent/40 border-y hairline py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-2 gap-10">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-2 gap-10">
         <div>
-          <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Vision</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-primary/70">Vision</p>
           <h3 className="mt-4 font-serif text-3xl md:text-4xl text-primary leading-snug">
             A private sector that engages government with confidence, and a public sector that
             benefits from it.
           </h3>
         </div>
         <div>
-          <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Mission</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-primary/70">Mission</p>
           <h3 className="mt-4 font-serif text-3xl md:text-4xl text-primary leading-snug">
             Leveraging markets for better state-growth through partnerships that are financially
             rewarding and economically transformative.
@@ -190,10 +190,10 @@ function VisionMission() {
 function Spheres() {
   return (
     <section id="spheres" className="py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16">
         <div className="flex items-end justify-between mb-10">
           <div>
-            <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Operating Spheres</p>
+            <p className="text-sm tracking-[0.25em] uppercase text-primary/70">Operating Spheres</p>
             <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary">Where we work.</h2>
           </div>
         </div>
@@ -213,9 +213,9 @@ function Spheres() {
 function Differentiators() {
   return (
     <section className="bg-primary text-primary-foreground py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-12 gap-8">
         <div className="md:col-span-4">
-          <p className="text-xs tracking-[0.25em] uppercase text-primary-foreground/60">What sets us apart</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-primary-foreground/60">What sets us apart</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl leading-tight">
             Not a vendor. <em className="italic font-normal">A long-term advisor.</em>
           </h2>
@@ -236,9 +236,9 @@ function Differentiators() {
 function Services() {
   return (
     <section id="services" className="py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16">
         <div className="mb-10 max-w-3xl">
-          <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Our Services</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-primary/70">Our Services</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
             Five practices, built around how government actually works.
           </h2>
@@ -272,9 +272,9 @@ function Services() {
 function Team() {
   return (
     <section className="border-t hairline py-16 md:py-20">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 grid md:grid-cols-12 gap-8 items-start">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-12 gap-8 items-start">
         <div className="md:col-span-5">
-          <p className="text-xs tracking-[0.25em] uppercase text-primary/70">The Team</p>
+          <p className="text-sm tracking-[0.25em] uppercase text-primary/70">The Team</p>
           <h2 className="mt-4 font-serif text-3xl md:text-4xl text-primary leading-tight">
             Led by individuals who have worked inside and alongside government.
           </h2>
@@ -301,7 +301,7 @@ function Contact() {
   return (
     <section id="contact" className="bg-accent/40 py-16 md:py-20 border-t hairline">
       <div className="mx-auto max-w-5xl px-6 lg:px-10 text-center">
-        <p className="text-xs tracking-[0.25em] uppercase text-primary/70">Partner with us</p>
+        <p className="text-sm tracking-[0.25em] uppercase text-primary/70">Partner with us</p>
         <h2 className="mt-6 font-serif text-4xl md:text-6xl text-primary leading-tight">
           Position your company as a leader in India's <em className="italic font-normal">growth story.</em>
         </h2>
@@ -326,7 +326,7 @@ function Contact() {
 function Footer() {
   return (
     <footer className="bg-background border-t hairline py-10">
-      <div className="mx-auto max-w-7xl px-6 lg:px-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
+      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-3">
           <img src={logo} alt="" className="h-8 w-auto opacity-80" />
         </div>
