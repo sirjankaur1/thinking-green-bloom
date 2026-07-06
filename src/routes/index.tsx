@@ -74,7 +74,7 @@ const differentiators = [
 function Nav() {
   return (
     <header className="absolute top-0 left-0 right-0 z-20">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 flex items-center justify-between py-6">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24 flex items-center justify-between py-6">
         <a href="#top" className="flex items-center gap-3">
           <img
             src={logo}
@@ -82,13 +82,13 @@ function Nav() {
             className="h-28 md:h-36 w-auto drop-shadow-md transition-transform hover:scale-[1.03]"
           />
         </a>
-        <nav className="hidden md:flex items-center gap-12 text-base text-foreground/80">
+        <nav className="hidden md:flex items-center gap-12 text-lg text-foreground/80">
           <a href="#about" className="hover:text-primary transition-colors">About</a>
           <a href="#spheres" className="hover:text-primary transition-colors">Operating Spheres</a>
           <a href="#services" className="hover:text-primary transition-colors">Services</a>
           <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
         </nav>
-        <a href="#contact" className="hidden md:inline-flex items-center text-base font-medium text-primary border-b border-primary/40 pb-0.5 hover:border-primary">
+        <a href="#contact" className="hidden md:inline-flex items-center text-lg font-medium text-primary border-b border-primary/40 pb-0.5 hover:border-primary">
           Partner with us →
         </a>
       </div>
@@ -99,7 +99,7 @@ function Nav() {
 function Hero() {
   return (
     <section id="top" className="relative pt-44 md:pt-56 pb-16 md:pb-24 overflow-hidden">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-12 gap-8 items-center">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24 grid md:grid-cols-12 gap-8 items-center">
         <div className="md:col-span-7">
           <p className="text-sm tracking-[0.25em] uppercase text-primary/70 mb-6">Government Consulting · India</p>
           <h1 className="font-serif text-5xl md:text-7xl leading-[1.05] text-primary">
@@ -133,7 +133,7 @@ function Hero() {
 function About() {
   return (
     <section id="about" className="border-t hairline py-16 md:py-20">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-12 gap-8">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24 grid md:grid-cols-12 gap-8">
         <div className="md:col-span-4">
           <p className="text-sm tracking-[0.25em] uppercase text-primary/70">About</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
@@ -164,7 +164,7 @@ function About() {
 function VisionMission() {
   return (
     <section className="bg-accent/40 border-y hairline py-16 md:py-20">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-2 gap-10">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24 grid md:grid-cols-2 gap-10">
         <div>
           <p className="text-sm tracking-[0.25em] uppercase text-primary/70">Vision</p>
           <h3 className="mt-4 font-serif text-3xl md:text-4xl text-primary leading-snug">
@@ -190,7 +190,7 @@ function VisionMission() {
 function Spheres() {
   return (
     <section id="spheres" className="py-16 md:py-20">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24">
         <div className="flex items-end justify-between mb-10">
           <div>
             <p className="text-sm tracking-[0.25em] uppercase text-primary/70">Operating Spheres</p>
@@ -213,7 +213,7 @@ function Spheres() {
 function Differentiators() {
   return (
     <section className="bg-primary text-primary-foreground py-16 md:py-20">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-12 gap-8">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24 grid md:grid-cols-12 gap-8">
         <div className="md:col-span-4">
           <p className="text-sm tracking-[0.25em] uppercase text-primary-foreground/60">What sets us apart</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl leading-tight">
@@ -236,7 +236,7 @@ function Differentiators() {
 function Services() {
   return (
     <section id="services" className="py-16 md:py-20">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24">
         <div className="mb-10 max-w-3xl">
           <p className="text-sm tracking-[0.25em] uppercase text-primary/70">Our Services</p>
           <h2 className="mt-4 font-serif text-4xl md:text-5xl text-primary leading-tight">
@@ -272,7 +272,7 @@ function Services() {
 function Team() {
   return (
     <section className="border-t hairline py-16 md:py-20">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 grid md:grid-cols-12 gap-8 items-start">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24 grid md:grid-cols-12 gap-8 items-start">
         <div className="md:col-span-5">
           <p className="text-sm tracking-[0.25em] uppercase text-primary/70">The Team</p>
           <h2 className="mt-4 font-serif text-3xl md:text-4xl text-primary leading-tight">
@@ -326,7 +326,7 @@ function Contact() {
 function Footer() {
   return (
     <footer className="bg-background border-t hairline py-10">
-      <div className="mx-auto max-w-[1500px] px-8 lg:px-16 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
+      <div className="mx-auto max-w-[1920px] px-8 lg:px-16 xl:px-24 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
         <div className="flex items-center gap-3">
           <img src={logo} alt="" className="h-8 w-auto opacity-80" />
         </div>
