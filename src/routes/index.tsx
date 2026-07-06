@@ -82,13 +82,13 @@ function Nav() {
             className="h-28 lg:h-40 xl:h-44 w-auto drop-shadow-md transition-transform hover:scale-[1.03]"
           />
         </a>
-        <nav className="hidden lg:flex items-center gap-8 xl:gap-12 2xl:gap-14 text-xl xl:text-2xl text-foreground/80">
+        <nav className="hidden lg:flex items-center gap-8 xl:gap-10 2xl:gap-14 text-xl 2xl:text-2xl text-foreground/80">
           <a href="#about" className="hover:text-primary transition-colors">About</a>
           <a href="#spheres" className="hover:text-primary transition-colors">Operating Spheres</a>
           <a href="#services" className="hover:text-primary transition-colors">Services</a>
           <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
         </nav>
-        <a href="#contact" className="hidden xl:inline-flex items-center text-xl 2xl:text-2xl font-medium text-primary border-b border-primary/40 pb-0.5 hover:border-primary">
+        <a href="#contact" className="hidden xl:inline-flex whitespace-nowrap items-center text-lg 2xl:text-2xl font-medium text-primary border-b border-primary/40 pb-0.5 hover:border-primary">
           Partner with us →
         </a>
       </div>
@@ -99,10 +99,10 @@ function Nav() {
 function Hero() {
   return (
     <section id="top" className="relative pt-44 lg:pt-64 pb-14 lg:pb-20 overflow-hidden">
-      <div className="mx-auto max-w-[1920px] px-7 lg:px-12 xl:px-16 2xl:px-20 grid lg:grid-cols-12 gap-8 xl:gap-12 items-center">
-        <div className="md:col-span-7">
+      <div className="mx-auto max-w-[1920px] px-7 lg:px-12 xl:px-16 2xl:px-20 grid lg:grid-cols-[minmax(0,1fr)_minmax(340px,0.56fr)] gap-8 xl:gap-12 items-center">
+        <div>
           <p className="text-base xl:text-lg tracking-[0.18em] uppercase text-primary/70 mb-5 lg:mb-6">Government Consulting · India</p>
-          <h1 className="font-serif text-5xl lg:text-8xl 2xl:text-9xl leading-[0.98] text-primary">
+          <h1 className="font-serif text-5xl lg:text-[5.6rem] xl:text-8xl 2xl:text-9xl leading-[0.98] text-primary">
             Engage government as a <em className="italic font-normal">navigable, winnable</em> terrain.
           </h1>
           <p className="mt-6 max-w-3xl text-xl xl:text-2xl text-muted-foreground leading-snug">
@@ -119,10 +119,10 @@ function Hero() {
             </a>
           </div>
         </div>
-        <div className="md:col-span-5 flex justify-center md:justify-end">
+        <div className="flex justify-center md:justify-end">
           <div className="relative">
             <div className="absolute inset-0 -m-10 rounded-full bg-accent/60 blur-3xl" aria-hidden />
-            <img src={thinker} alt="The Thinker by Auguste Rodin" className="relative h-[420px] lg:h-[600px] 2xl:h-[680px] w-auto object-contain drop-shadow-xl" />
+            <img src={thinker} alt="The Thinker by Auguste Rodin" className="relative h-[420px] lg:h-[520px] xl:h-[600px] 2xl:h-[680px] w-auto object-contain drop-shadow-xl" />
           </div>
         </div>
       </div>
